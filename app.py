@@ -8,7 +8,7 @@ import threading
 import webbrowser
 from flask import Flask, jsonify, render_template, request
 from PIL import Image
-from sympy import diff, lambdify, solve, symbols, sympify
+from sympy import diff, lambdify, symbols, sympify
 
 app = Flask(__name__)
 

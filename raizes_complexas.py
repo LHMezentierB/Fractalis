@@ -1,6 +1,5 @@
 import numpy as np
 from PIL import Image
-import sys
 import colorsys
 from sympy import diff, lambdify, solve, symbols, solveset, nsolve, ConditionSet, Interval, pi
 
@@ -17,7 +16,7 @@ from geradorDePaletas import gerador_de_paletas_PD
 # Quando importado pelo app.py, o Flask sobrescreve todos eles a cada requisição.
 LARGURA_IMAGEM = 1000
 ALTURA_IMAGEM = 1000
-TOLERANCIA = 1
+TOLERANCIA = 0.0001
 QTD_CHUTES = 50
 FATOR_PASSO = 1
 
