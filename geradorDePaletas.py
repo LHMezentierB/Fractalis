@@ -21,7 +21,6 @@ gera um erro em vez de inventar cores novas.
 
 import colorsys
 import matplotlib.pyplot as plt
-from numpy import linspace
 import seaborn as sbn
 
 #paletas base, para ter a possibilidade de adicionar alguma nova externamente.
