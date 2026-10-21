@@ -49,7 +49,7 @@ for paletas_string in paletas_nome[:MAX_PALETAS]:
     try:
         #recupera a paleta
         paleta = sbn.color_palette(paletas_string)
-        #Pegamos todas as cores do color map, para depois dividirmos.
+        #Pegamos os valores hex da paleta
         hex_colors = paleta.as_hex()
         #atribui elas ao dicionario
         PALETAS[paletas_string] = hex_colors
